@@ -1,0 +1,1 @@
+cmd_/home/anjali/devicedriver/parampassing/parampassing.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/anjali/devicedriver/parampassing/parampassing.ko /home/anjali/devicedriver/parampassing/parampassing.o /home/anjali/devicedriver/parampassing/parampassing.mod.o;  true
